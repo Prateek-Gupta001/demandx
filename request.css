@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a2342;
+    color: white;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #ffdf00;
+    height: 10px;
+  }
+  
+  #requestForm {
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: black;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #requests {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .request {
+    width: 24%; /* Adjust width as needed for desired product layout */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .request img {
+    width: 100%; /* Adjust image width as needed */
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .request-description {
+    text-align: center;
+    font-weight: bold;
+    color: #333; /* Change description color */
+  }
+  
+  .request-price {
+    margin-top: 5px;
+    font-weight: bold;
+    color: #f0545e; /* Change price color */
+  }
+  
+  /* Additional styling for seller section can be added here */
+  .seller-review {
+    /* Style for seller review section */
+  }
+  
+  .seller-price {
+    /* Style for seller price section */
+  }
+  
