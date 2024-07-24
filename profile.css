@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+/* General styles */
+body {
+  font-family: 'Varela', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #f1f2b5, #135058);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation styles */
+.navbar {
+  background-color: rgba(40, 52, 67, 0.85);
+  color: white;
+  padding: 10px 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: #008080;
+}
+
+/* User details styles */
+.user-details {
+  text-align: center;
+  color: white;
+}
+
+.username, .followers, .stars {
+  margin: 10px 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  
+}
+
+.username {
+  color: #0056b3;
+}
+
+.followers, .stars {
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Arial', sans-serif;
+}
+
+.followers .icon-heart, .stars .icon-star {
+  font-size: 20px;  /* Larger icon size */
+  color: red;      /* Red color for the heart */
+}
+
+.stars .icon-star {
+  color: gold;     /* Gold color for the star */
+}
+
+/* Additional hover effects */
+.navbar .username:hover, .navbar .followers:hover, .navbar .stars:hover {
+  color: #d63384;
+  cursor: pointer;
+}
+
+
+/* Item styles */
+.items-container {
+  background-color: rgba(57, 89, 116, 0.8);
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.status {
+  float: right;
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #93a5ab;
+  background-color: transparent;
+  color: white;
+  margin-top: 10px;
+}
+
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus {
+  border-color: #ccd8da;
+  outline: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #7692A7;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #567;
+}

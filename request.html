@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request Board</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Request Board</h1>
+    <div id="requestForm">
+      <h2>Post Your Request</h2>
+      <textarea id="requestDescription" placeholder="Describe what you want..."></textarea>
+      <input type="number" min="0" step="0.01" id="requestPrice" placeholder="Desired Price"> <input type="file" id="requestImage" accept="image/*">
+      <button onclick="submitRequest()">Submit Request</button>
+    </div>
+    <div id="requestTimeline">
+      <h2>Requests Timeline</h2>
+      <div id="requests">
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
